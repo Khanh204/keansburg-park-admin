@@ -4,6 +4,7 @@ import Header from './components/layouts/header';
 import Sidebar from './components/layouts/sidebar';
 import Dashboard from './components/pages/dashboard';
 import Customer from './components/pages/customer';
+// import Login from './components/auth/login';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/customers' element={<Customer/>}/>
+     {/* <Route path='/login' element={<Login/>}/> */}
 
         </Routes>
 

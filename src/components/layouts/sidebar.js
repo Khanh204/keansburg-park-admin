@@ -11,23 +11,9 @@ function Sidebar() {
                             <a href="/customers"><i className="fe fe-vector"></i> <span>Customer</span></a>
                         </li>
                         <li>
-                            <a href="/doctor"><i className="fe fe-star-o"></i> <span>List Doctor</span></a>
+                            <a href="/doctor"><i className="fe fe-star-o"></i> <span>List Order</span></a>
                         </li>
-                        <li>
-                            <a href="/list_patient"><i className="fe fe-activity"></i> <span>List Patient</span></a>
-                        </li>
-                        <li>
-                            <a href="/list_booking"><i className="fe fe-vector"></i> <span>List Booking</span></a>
-                        </li>
-                        <li>
-                            <a href="/medicine"><i className="fe fe-document"></i> <span>Medicine</span></a>
-                        </li>
-                        <li>
-                            <a href="/arrived"><i className="far fa-clipboard"></i> <span>Arrived</span></a>
-                        </li>
-                        <li>
-                            <a href="/device"><i className="fe fe-vector"></i> <span>Device</span></a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
